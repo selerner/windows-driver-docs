@@ -125,7 +125,9 @@ You can activate the DDI compliance checking feature for one or more drivers by 
 |--------------------------------------|
 |                                      |
 
-Starting in Windows 8.1, the **DDI compliance checking (additional) option** option provides additional rules to determine whether the driver correctly interacts with the Windows operating system kernel. When you select the **DDI compliance checking (additional) option**, the following rules are tested:
+Please note that DDI compliance checking (additional) is **deprecated in Windows 10 Insider Preview Build 19042 and above**
+
+The **DDI compliance checking (additional) option** option provides additional rules to determine whether the driver correctly interacts with the Windows operating system kernel. When you select the **DDI compliance checking (additional) option**, the following rules are tested:
 
 - [**CriticalRegions**](./wdm-criticalregions.md)
 
